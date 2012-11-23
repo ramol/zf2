@@ -26,7 +26,7 @@ class Upca extends Ean13
     protected function getDefaultOptions()
     {
         $this->barcodeLength = 12;
-        $this->mandatoryChecksum = true;
+        $this->mandatoryChecksum = false;
         $this->mandatoryQuietZones = true;
     }
 
